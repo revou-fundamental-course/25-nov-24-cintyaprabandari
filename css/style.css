@@ -1,0 +1,105 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+}
+
+header p {
+    font-size: 1rem;
+    color: #555;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #444;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+input, select {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+button[type="reset"] {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+button[type="reset"]:hover {
+    background-color: #c82333;
+}
+
+#bmi-result {
+    margin-top: 20px;
+    padding: 15px;
+    background: #e9ecef;
+    border-left: 5px solid #007bff;
+    border-radius: 5px;
+    color: #333;
+}
